@@ -4,11 +4,11 @@
 
 ### Create new issue
 
-*Click on the issues tab
-*Click new issue
-*Enter a title for what you will be working
+* Click on the issues tab
+* Click new issue
+* Enter a title for what you will be working
   ** Naming convention for title and branch naming will be "Making-A-Function-For-SQL"
-*Enter a description explaining what it is you will be working on for the branch
+* Enter a description explaining what it is you will be working on for the branch
 
 
 
