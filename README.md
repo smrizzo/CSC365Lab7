@@ -37,5 +37,16 @@ $ git push origin [name_of_your_new_branch]
 
 By this point you will have created an issue on github, Created a branch on local machine, and pushed that branch to github.
 
-If you navigate to github 
+If you navigate to github main page of CSC365Lab7 you will see a the branch name master with an arrow.
+If you click on that you will see all branchs that have been and you should be able to see the new branch you just made.
+
+5) When you make changes locally and need to push changes to your branch use
+* MAKE SURE ARE IN YOUR BRANCH AND NOT MASTER
+```
+$ git add .
+$ git commit -m "Brief message explaining what this commit is "
+$ git push origin [name_of_your_new_branch]
+```
+
+### Making pull Request
 
