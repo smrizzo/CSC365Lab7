@@ -49,4 +49,5 @@ $ git push origin [name_of_your_new_branch]
 ```
 
 ### Making pull Request
-
+* When you are finished with the feature or part of the branch you were working we will need a pull request
+* For now just wait and we can discuss this on monday
