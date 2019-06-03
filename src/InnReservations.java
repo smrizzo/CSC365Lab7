@@ -20,45 +20,89 @@ public class InnReservations {
         String delims = " ";
         String [] strarray = inp.split(delims);
 
-        System.out.println("MENU:\n");
-        System.out.println("(1) Rooms and Rates\n");
-        System.out.println("(2) Reservations\n");
-        System.out.println("(3) Reservation Change\n");
-        System.out.println("(4) Reservation Cancellation\n");
-        System.out.println("(5) Revenue\n");
+        while(strarray[0].equals("exit")) {
+            System.out.println("MENU:\n");
+            System.out.println("(1) Rooms and Rates\n");
+            System.out.println("(2) Reservations\n");
+            System.out.println("(3) Reservation Change\n");
+            System.out.println("(4) Reservation Cancellation\n");
+            System.out.println("(5) Revenue\n");
 
-        if(strarray[0].equals("1"))
-        {
+            if (strarray[0].equals("1")) {
+                System.out.println("Room Popularity");
+                System.out.println("next available check-in data");
+                System.out.println("length");
 
-
-        }else if(strarray[0].equals("2"))
-        {
-
-
-        }
-        else if(strarray[0].equals("3"))
-        {
+            } else if (strarray[0].equals("2")) {
 
 
-        }
-        else if(strarray[0].equals("4"))
-        {
+                System.out.println("First Name\n");
+                String first = inp.nextLine();
+                System.out.println("Last Name");
+                String last = inp.nextLine();
+                System.out.println("Room Code");
+                String roomcode = inp.nextLine();
+                System.out.println("Bed Type");
+                String bedtype= inp.nextLine();
+                System.out.println("Beginning Day of Stay");
+                String start = inp.nextLine();
+                System.out.println("Ending Day of Stay");
+                String end = inp.nextLine();
+                System.out.println("Number of Children");
+                String numchild = inp.nextLine();
+                System.out.println("Number of Adults");
+                String numadult = inp.nextLine();
 
 
-        }
-        else if(strarray[0].equals("5"))
-        {
+            } else if (strarray[0].equals("3")) {
+
+                System.out.println("First Name\n");
+                String first = inp.nextLine();
+                System.out.println("Last Name");
+                String last = inp.nextLine();
+                System.out.println("Room Code");
+                String roomcode = inp.nextLine();
+                System.out.println("Bed Type");
+                String bedtype= inp.nextLine();
+                System.out.println("Beginning Day of Stay");
+                String start = inp.nextLine();
+                System.out.println("Ending Day of Stay");
+                String end = inp.nextLine();
+                System.out.println("Number of Children");
+                String numchild = inp.nextLine();
+                System.out.println("Number of Adults");
+                String numadult = inp.nextLine();
 
 
-        }
-        else if(strarray[0].equals("6"))
-        {
+            } else if (strarray[0].equals("4")) {
+
+                System.out.println("Reservation Code\n");
+                String rescode = inp.nextLine();
+                System.out.println("Would You Like to Cancel. Yes or No");
+                String choice = inp.nextLine();
 
 
-        }
-        else
-        {
-            System.out.println("invalid Input\n");
+            } else if (strarray[0].equals("5")) {
+
+                System.out.println("First Name\n");
+                String first = inp.nextLine();
+                System.out.println("Last Name");
+                String last = inp.nextLine();
+                System.out.println("Range of Dates");
+                String dateRange = inp.nextLine();
+                System.out.println("Room Code");
+                String RoomCode inp.nextLine();
+                System.out.println("Reservation Code");
+                String ResCode = inp.nextLine();
+
+
+            } else if (strarray[0].equals("6")) {
+
+
+            } else {
+                System.out.println("invalid Input\n");
+            }
+
         }
 
 
